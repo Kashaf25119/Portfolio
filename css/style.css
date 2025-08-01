@@ -254,7 +254,7 @@ span {
 }
 
 .portfolio-box {
-    height: 300px;
+    height: 250px;
 }
 
 .portfolio-container .portfolio-box {
@@ -455,6 +455,9 @@ span {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .portfolio-box {
+        height: 200px;
+    }
 }
 
 @media (max-width : 991px) {
@@ -470,10 +473,6 @@ span {
     .services {
         padding-bottom: 7rem;
     }
-
-    /* .portfolio-container {
-        grid-template-columns: fr;
-    } */
 
     .portfolio {
         padding-bottom: 7rem;
@@ -592,7 +591,11 @@ span {
     }
 
     .contact .contact-box a {
-        padding: 2rem .2rem;
+        padding: 0;
+    }
+
+    .portfolio-box {
+        height: 200px;
     }
 
 }
