@@ -37,19 +37,14 @@ section{
     position: fixed;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background: transparent;
-    border-radius: 50%;
-    font-size: 2rem;
-    color: var(--main-color);
-    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    color: var(--text-color);
     transition: .5s ease;
 }
 
 .section a:hover{
-    font-size: 3rem;
-    padding-top: 0;
+    color: var(--main-color);
+    text-shadow: 0 0 1rem var(--main-color);
 }
 
 .heading {
@@ -145,3 +140,4 @@ ul li {
         font-size: 1.6rem;
     }
 }
+
